@@ -20,6 +20,7 @@ p {
 
 #sedans {
     background-color: #e38826;
+    padding:20px;
 }
 
 #sedans button {
@@ -28,6 +29,7 @@ p {
 
 #suvs {
     background-color: #006970;
+    padding:20px;
 }
 
 #suvs button {
@@ -36,6 +38,7 @@ p {
 
 #luxury {
     background-color: #004241;
+    padding:20px;
 }
 
 .attribution {
