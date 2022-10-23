@@ -22,8 +22,16 @@ p {
     background-color: #e38826;
 }
 
+#sedans button {
+    color:#e38826
+}
+
 #suvs {
     background-color: #006970;
+}
+
+#suvs button {
+    color:#006970
 }
 
 #luxury {
@@ -32,4 +40,9 @@ p {
 
 .attribution {
     display:none;
+}
+
+button {
+    margin: 10px;
+    font-family:'Lexend Deca', sans-serif;
 }
