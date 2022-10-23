@@ -43,6 +43,10 @@ p {
 }
 
 button {
-    margin: 10px;
+    margin: 20px;
+    padding:10px;
     font-family:'Lexend Deca', sans-serif;
+    background-color: white;
+    border:none;
+    border-radius:20px;
 }
