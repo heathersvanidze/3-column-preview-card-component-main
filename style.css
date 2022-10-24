@@ -31,6 +31,13 @@ p {
     color:#e38826
 }
 
+#sedans button:hover {
+    background-color: #e38826;
+    color:white;
+    border-color:white;
+    border-style:solid;
+}
+
 #suvs {
     background-color: #006970;
     padding:30px;
@@ -40,9 +47,27 @@ p {
     color:#006970
 }
 
+#suvs button:hover {
+    background-color: #006970;
+    color:white;
+    border-color:white;
+    border-style:solid;
+}
+
 #luxury {
     background-color: #004241;
     padding:30px;
+}
+
+#luxury button {
+    color:#004241;
+}
+
+#luxury button:hover {
+    background-color: #004241;
+    color:white;
+    border-color:white;
+    border-style:solid;
 }
 
 .attribution {
@@ -57,3 +82,4 @@ button {
     border:none;
     border-radius:20px;
 }
+
