@@ -4,6 +4,10 @@ html {
     font-size:15px;
 }
 
+body {
+    max-width:375px;
+}
+
 h1 {
     font-family:'Big Shoulders Display', cursive;
     font-weight:700;
@@ -20,7 +24,7 @@ p {
 
 #sedans {
     background-color: #e38826;
-    padding:20px;
+    padding:30px;
 }
 
 #sedans button {
@@ -29,7 +33,7 @@ p {
 
 #suvs {
     background-color: #006970;
-    padding:20px;
+    padding:30px;
 }
 
 #suvs button {
@@ -38,7 +42,7 @@ p {
 
 #luxury {
     background-color: #004241;
-    padding:20px;
+    padding:30px;
 }
 
 .attribution {
@@ -46,7 +50,7 @@ p {
 }
 
 button {
-    margin: 20px;
+    margin: 20px 0 20px 0;
     padding:10px;
     font-family:'Lexend Deca', sans-serif;
     background-color: white;
