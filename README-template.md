@@ -62,6 +62,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### What I learned
 
 I learned to use the opacity property in CSS to make the p text transparent. 
+font-family:'Lexend Deca', sans-serif;
+    font-weight:400;
+    color:white;
+    opacity:0.75;
+
+I struggled for a while with turning the rows from the mobile version to columns in the desktop version. I finally realized I needed to make article display:flex, as well as body and .car-profile class. 
 
 ### Continued development
 
