@@ -67,7 +67,7 @@ font-family:'Lexend Deca', sans-serif;
     color:white;
     opacity:0.75;
 
-I struggled for a while with turning the rows from the mobile version to columns in the desktop version. I finally realized I needed to make article display:flex, as well as body and .car-profile class. 
+I struggled for a while with turning the rows from the mobile version to columns in the desktop version. I finally realized I needed to make article display:flex, as well as body and .car-profile class. Then my mentor advised me that I shouldn't be using article or sections for this project at all. I removed article and moved the flexbox properties I'd assigned to article to main instead. I then realized I needed to remove flexbox properties from body if I wanted my attribution to be at the bottom and not get caught up in the flex. 
 
 ### Continued development
 

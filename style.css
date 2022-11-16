@@ -6,12 +6,14 @@ html {
 
 body {
     max-width:375px;
-    display:flex;
-    flex-direction:row;
-    border-radius:10%;
 }
 
-h1 {
+main {
+    border-radius: 20px;
+    overflow:hidden;
+}
+
+h2 {
     font-family:'Big Shoulders Display', cursive;
     font-weight:700;
     text-transform:uppercase;
@@ -75,11 +77,7 @@ p {
     border-style:solid;
 }
 
-.attribution {
-    display:none;
-}
-
-button {
+.learn-btn {
     margin: 20px 0 20px 0;
     padding:10px;
     font-family:'Lexend Deca', sans-serif;
@@ -88,23 +86,20 @@ button {
     border-radius:20px;
 }
 
-
-
 /*DESKTOP STYLES*/
 
 @media screen and (min-width: 1200px) {
 
-    article {
+    main {
         display:flex;
         justify-content: center;
+        border-radius:20px;
     }
     
     body {
         max-width:900px;
         margin:auto;
         margin-top:170px;
-        display:flex;
-        justify-content: center;
         
     }
 
